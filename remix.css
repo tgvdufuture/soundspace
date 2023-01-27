@@ -9,6 +9,7 @@ body{
     background-color: #000000;
     overflow: hidden;  
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 .logo{
     width: 60px;
@@ -153,19 +154,19 @@ h5{
 @media (max-width: 1440px) {
     .btns{
         position: relative;
-        top: -100px;
+        top: 100px;
     }
     .img{
         position: relative;
-        top: 60px;
+        top: 280px;
     }   
     .titre{
         position: relative;
-        top: -30px;
+        top: 200px;
     }
     .artiste{
         position: relative;
-        top: -26px;
+        top: 200px;
     }
     .card{
         position: relative;
@@ -197,17 +198,148 @@ h5{
     }
     .artiste{
         position: relative;
-        top: 240px;
+        top: 160px;
     }
     .hr{
         color: white;
     }
     .card{
         position: relative;
-        left: 350px;
+        left: 300px;
     }
     .degrade{
         position: relative;
-        left: 350px;
+        left: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .btns{
+        position: relative;
+        top: 260px;
+        left: 100px;
+    }
+    .img{
+        position: relative;
+        top: 440px;
+        left: 10px;
+    }
+    .titre{
+        position: relative;
+        top: 350px;
+        left: 130px;
+    }
+    .artiste{
+        position: relative;
+        top: 350px;
+        left: 130px;
+    }
+    .card{
+        width: 500px;
+    }
+    .degrade{
+        width: 570px;
+    }
+}
+@media (max-width: 425px) {
+    .haut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 200px;
+    }
+    .logo{
+        width: 100px;
+        position: relative;
+        top: 40px;
+    }
+    .name{
+        position: relative;
+        top: -50px;
+        left: 120px;
+    }
+    .navbar{
+        opacity: 0;
+    }
+    .card{
+        width: 800px;
+        position: relative;
+        left: 50px;
+        top: -800px;
+    }
+    .degrade{
+        width: 870px;
+        position: relative;
+        left: 50px;
+        top: -660px;
+    }
+    .card h1{
+        font-size: 70px;
+        position: relative;
+        top: -60px;
+    }
+    .card img{
+        position: relative;
+        top: -220px;
+    }
+    .img{
+        position: relative;
+        top: 1150px;
+        width: 150px;
+    }
+    .btns{
+        position: relative;
+        left: 550px;
+        top: 950px;
+    }
+    .artiste{
+        position: relative;
+        top: 1050px;
+        left: 200px;
+        font-size: 20px;
+    }
+    .titre{
+        position: relative;
+        top: 1050px;
+        left: 200px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 375px) {
+    .img{
+        position: relative;
+        top: 1400px;
+    }
+    .artiste{
+        position: relative;
+        top: 1300px;
+    }
+    .titre{
+        position: relative;
+        top: 1300px;
+    }
+    .btns{
+        position: relative;
+        top: 1200px;
+        left: 550px;
+    }
+}
+@media (max-width: 320px) {
+    .img{
+        position: relative;
+        top: 1750px;
+    }
+    .artiste{
+        position: relative;
+        top: 1650px;
+    }
+    .titre{
+        position: relative;
+        top: 1650px;
+    }
+    .btns{
+        position: relative;
+        top: 1500px;
+        left: 550px;
     }
 }
