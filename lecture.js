@@ -47,7 +47,7 @@ let musiquePlay = false;
 function playMusique(){
     musiquePlay = true;
     audio.play();
-    play.innerHTML = `<img src="./assets/icons/play.png">`
+    play.innerHTML = `<img src="./assets/icons/play-actif.png">`
     play.classList.add('active');
 }
 function pauseMusique(){
@@ -108,7 +108,7 @@ musiquePlayBetter = false;
 function playMusiqueBetter(){
     musiquePlayBetter = true;
     Better.play();
-    image.src = "./assets/icons/play.png";
+    image.src = "./assets/icons/play-actif.png";
     image.classList.add('active');
 }
 function pauseMusiqueBetter(){
@@ -131,7 +131,7 @@ musiquePlayHymn = false;
 function playMusiqueHymn(){
     musiquePlayHymn = true;
     Hymn.play();
-    image2.src = "./assets/icons/play.png";
+    image2.src = "./assets/icons/play-actif.png";
     image2.classList.add('active');
 }
 function pauseMusiqueHymn(){
@@ -154,7 +154,7 @@ musiquePlayEye = false;
 function playMusiqueEye(){
     musiquePlayEye = true;
     Eye.play();
-    image3.src = "./assets/icons/play.png";
+    image3.src = "./assets/icons/play-actif.png";
     image3.classList.add('active');
 }
 function pauseMusiqueEye(){
@@ -177,7 +177,7 @@ musiquePlayFinal = false;
 function playMusiqueFinal(){
     musiquePlayFinal = true;
     Final.play();
-    image4.src = "./assets/icons/play.png";
+    image4.src = "./assets/icons/play-actif.png";
     image4.classList.add('active');
 }
 function pauseMusiqueFinal(){
@@ -200,7 +200,7 @@ musiquePlayBeliever = false;
 function playMusiqueBeliever(){
     musiquePlayBeliever = true;
     Believer.play();
-    image5.src = "./assets/icons/play.png";
+    image5.src = "./assets/icons/play-actif.png";
     image5.classList.add('active');
 }
 function pauseMusiqueBeliever(){
