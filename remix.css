@@ -10,6 +10,7 @@ body{
     overflow: hidden;  
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    zoom: 75%;
 }
 .logo{
     width: 60px;
@@ -57,45 +58,7 @@ h5{
     bottom: 20px;
 }
 
-
-
-
-.titre{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    position: relative;
-    top: 274px;
-    left: 200px;
-}
-.artiste{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    position: relative;
-    top: 275px;
-    left: 200px;
-}
-.img{
-    position: relative;
-    top: 350px;
-    width: 100px;
-    left: 50px;
-    border-radius: 8px;
-}
-.btns{
-    position: relative;
-    top: 170px;
-    display: flex;
-    justify-content: center;
-}
-.btns span{
-    margin: 30px;
-    cursor: pointer;
-}
-.btns span img{
-    width: 50px;
-}
+/* card */
 
 .card {
     max-width: 300px;
@@ -117,7 +80,7 @@ h5{
 
     position: relative;
     left: 600px;
-    bottom: 840px;
+    bottom: 1390px;
   }
   
   .card-footer {
@@ -129,7 +92,7 @@ h5{
     width: 970px;
     height: 135px;
     position: relative;
-    bottom: 700px;
+    bottom: 1250px;
     left: 600px;
     border-radius: 20px;
   }
@@ -151,54 +114,115 @@ h5{
 }
 
 
+/* play */
+
+.titre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+.artiste{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+.img{
+    position: relative;
+    bottom: 230px;
+    width: 100px;
+    left: 50px;
+    border-radius: 8px;
+}
+.btns{
+    position: relative;
+    bottom: 400px;
+    display: flex;
+    justify-content: center;
+}
+.btns span{
+    margin: 30px;
+    cursor: pointer;
+}
+.btns span img{
+    width: 50px;
+}
+
 @media (max-width: 1440px) {
+    .scroller{
+        position: relative;
+        top: -300px;
+    }
     .btns{
         position: relative;
-        top: 100px;
+        top: -460px;
     }
     .img{
         position: relative;
-        top: 280px;
+        top: -300px;
     }   
     .titre{
         position: relative;
-        top: 200px;
+        top: -380px;
     }
     .artiste{
         position: relative;
-        top: 200px;
+        top: -380px;
     }
     .card{
         position: relative;
-        left: 400px;
+        top: -1350px;
+        left: 600px;
         width: 600px;
+        height: 30px;
     }
     .degrade{
         position: relative;
-        left: 400px;
+        left: 600px;
         width: 670px;
+        height: 100px;
     }
     .card h1{
+        position: relative;
         left: 200px;
+        font-size: 40px;
+        top: -40px;
+    }
+    .card img{
+        width: 80px;
+        position: relative;
+        top: -135px;
+    }
+    hr{
+        left: -800px;
     }
 }
 @media (max-width: 1024px) {
+    .scroller{
+        position: relative;
+        left: -100px;
+    }
     .btns{
         position: relative;
-        top: 80px;
+        top: -480px;
     }
     .img{
         position: relative;
-        top: 240px;
+        top: -300px;
     }   
     .titre{
         position: relative;
-        top: 160px;
+        top: -380px;
         right: 35px;
     }
     .artiste{
         position: relative;
-        top: 160px;
+        top: -380px;
     }
     .hr{
         color: white;
@@ -213,6 +237,7 @@ h5{
     }
 }
 @media (max-width: 768px) {
+    
     .btns{
         position: relative;
         top: 260px;
@@ -342,4 +367,180 @@ h5{
         top: 1500px;
         left: 550px;
     }
+}
+.scroller{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 550px;
+    position: relative;
+    bottom: 250px;
+}
+
+/* firstline */
+
+.firstline{
+    position: relative;
+    left: 100px;
+}
+.titre-playliste{
+    color: white;
+    position: relative;
+    left: 630px;
+    font-size: 40px; 
+}
+.artiste-playliste{
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: 950px;
+    font-size: 20px;
+}
+.playplayliste{
+    width: 30px;
+    position: relative;
+    left: 550px;
+}
+.img-playliste{
+    position: relative;
+    bottom: -90px;
+    left: 400px; 
+    width: 80px;
+}
+.play{
+    position: relative;
+    bottom: 110px;
+    left: 520px;
+    width: 50px;
+}
+
+/* twoline */
+
+.twoline{
+    position: relative;
+    left: 100px;
+}
+.titre-playliste2{
+    color: white;
+    position: relative;
+    left: 630px;
+    font-size: 40px;
+    bottom: 150px;
+}
+.artiste-playliste2{
+    color: white;
+    position: relative;
+    left: 1100px;
+    bottom: 210px;
+    font-size: 20px;
+}
+.img-playliste2{
+    position: relative;
+    bottom: 60px;
+    left: 400px; 
+    width: 80px;
+}
+.play2{
+    position: relative;
+    bottom: 260px;
+    left: 520px;
+    width: 50px;
+}
+
+/* line3 */
+
+.threeline{
+    position: relative;
+    left: 100px;
+}
+.titre-playliste3{
+    color: white;
+    position: relative;
+    left: 630px;
+    font-size: 40px;
+    bottom: 300px;
+}
+.artiste-playliste3{
+    color: white;
+    position: relative;
+    left: 900px;
+    font-size: 20px;
+    bottom: 360px;
+}
+.img-playliste3{
+    position: relative;
+    bottom: 210px;
+    left: 400px; 
+    width: 80px;
+}
+.play3{
+    position: relative;
+    bottom: 410px;
+    left: 520px;
+    width: 50px;
+}
+
+/* fourline */
+
+.fourline{
+    position: relative;
+    left: 100px;
+}
+.titre-playliste4{
+    color: white;
+    position: relative;
+    left: 630px;
+    font-size: 40px;
+    bottom: 450px;
+}
+.artiste-playliste4{
+    color: white;
+    position: relative;
+    left: 1050px;
+    font-size: 20px;
+    bottom: 510px;
+}
+.img-playliste4{
+    position: relative;
+    bottom: 360px;
+    left: 400px; 
+    width: 80px;
+}
+.play4{
+    position: relative;
+    bottom: 560px;
+    left: 520px;
+    width: 50px;
+}
+
+/* fiveline */
+
+.fiveline{
+    position: relative;
+    left: 100px;
+}
+.titre-playliste5{
+    color: white;
+    position: relative;
+    left: 630px;
+    font-size: 40px;
+    bottom: 600px;
+}
+.artiste-playliste5{
+    color: white;
+    position: relative;
+    left: 850px;
+    font-size: 20px;
+    bottom: 660px;
+}
+.img-playliste5{
+    position: relative;
+    bottom: 510px;
+    left: 400px; 
+    width: 80px;
+}
+.play5{
+    position: relative;
+    bottom: 710px;
+    left: 520px;
+    width: 50px;
 }
