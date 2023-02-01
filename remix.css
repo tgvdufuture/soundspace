@@ -152,222 +152,6 @@ h5{
 .btns span img{
     width: 50px;
 }
-
-@media (max-width: 1440px) {
-    .scroller{
-        position: relative;
-        top: -300px;
-    }
-    .btns{
-        position: relative;
-        top: -460px;
-    }
-    .img{
-        position: relative;
-        top: -300px;
-    }   
-    .titre{
-        position: relative;
-        top: -380px;
-    }
-    .artiste{
-        position: relative;
-        top: -380px;
-    }
-    .card{
-        position: relative;
-        top: -1350px;
-        left: 600px;
-        width: 600px;
-        height: 30px;
-    }
-    .degrade{
-        position: relative;
-        left: 600px;
-        width: 670px;
-        height: 100px;
-    }
-    .card h1{
-        position: relative;
-        left: 200px;
-        font-size: 40px;
-        top: -40px;
-    }
-    .card img{
-        width: 80px;
-        position: relative;
-        top: -135px;
-    }
-    hr{
-        left: -800px;
-    }
-}
-@media (max-width: 1024px) {
-    .scroller{
-        position: relative;
-        left: -100px;
-    }
-    .btns{
-        position: relative;
-        top: -480px;
-    }
-    .img{
-        position: relative;
-        top: -300px;
-    }   
-    .titre{
-        position: relative;
-        top: -380px;
-        right: 35px;
-    }
-    .artiste{
-        position: relative;
-        top: -380px;
-    }
-    .hr{
-        color: white;
-    }
-    .card{
-        position: relative;
-        left: 300px;
-    }
-    .degrade{
-        position: relative;
-        left: 300px;
-    }
-}
-@media (max-width: 768px) {
-    
-    .btns{
-        position: relative;
-        top: 260px;
-        left: 100px;
-    }
-    .img{
-        position: relative;
-        top: 440px;
-        left: 10px;
-    }
-    .titre{
-        position: relative;
-        top: 350px;
-        left: 130px;
-    }
-    .artiste{
-        position: relative;
-        top: 350px;
-        left: 130px;
-    }
-    .card{
-        width: 500px;
-    }
-    .degrade{
-        width: 570px;
-    }
-}
-@media (max-width: 425px) {
-    .haut{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        left: 200px;
-    }
-    .logo{
-        width: 100px;
-        position: relative;
-        top: 40px;
-    }
-    .name{
-        position: relative;
-        top: -50px;
-        left: 120px;
-    }
-    .navbar{
-        opacity: 0;
-    }
-    .card{
-        width: 800px;
-        position: relative;
-        left: 50px;
-        top: -800px;
-    }
-    .degrade{
-        width: 870px;
-        position: relative;
-        left: 50px;
-        top: -660px;
-    }
-    .card h1{
-        font-size: 70px;
-        position: relative;
-        top: -60px;
-    }
-    .card img{
-        position: relative;
-        top: -220px;
-    }
-    .img{
-        position: relative;
-        top: 1150px;
-        width: 150px;
-    }
-    .btns{
-        position: relative;
-        left: 550px;
-        top: 950px;
-    }
-    .artiste{
-        position: relative;
-        top: 1050px;
-        left: 200px;
-        font-size: 20px;
-    }
-    .titre{
-        position: relative;
-        top: 1050px;
-        left: 200px;
-        font-size: 30px;
-    }
-}
-@media (max-width: 375px) {
-    .img{
-        position: relative;
-        top: 1400px;
-    }
-    .artiste{
-        position: relative;
-        top: 1300px;
-    }
-    .titre{
-        position: relative;
-        top: 1300px;
-    }
-    .btns{
-        position: relative;
-        top: 1200px;
-        left: 550px;
-    }
-}
-@media (max-width: 320px) {
-    .img{
-        position: relative;
-        top: 1750px;
-    }
-    .artiste{
-        position: relative;
-        top: 1650px;
-    }
-    .titre{
-        position: relative;
-        top: 1650px;
-    }
-    .btns{
-        position: relative;
-        top: 1500px;
-        left: 550px;
-    }
-}
 .scroller{
     overflow-y: auto;
     overflow-x: hidden;
@@ -394,11 +178,6 @@ h5{
     bottom: 60px;
     left: 950px;
     font-size: 20px;
-}
-.playplayliste{
-    width: 30px;
-    position: relative;
-    left: 550px;
 }
 .img-playliste{
     position: relative;
@@ -543,4 +322,450 @@ h5{
     bottom: 710px;
     left: 520px;
     width: 50px;
+}
+@media (max-width: 1440px) {
+    .scroller{
+        position: relative;
+        top: -300px;
+    }
+    .btns{
+        position: relative;
+        top: -460px;
+    }
+    .img{
+        position: relative;
+        top: -300px;
+    }   
+    .titre{
+        position: relative;
+        top: -380px;
+    }
+    .artiste{
+        position: relative;
+        top: -380px;
+    }
+    .card{
+        position: relative;
+        top: -1350px;
+        left: 600px;
+        width: 600px;
+        height: 30px;
+    }
+    .degrade{
+        position: relative;
+        left: 600px;
+        width: 670px;
+        height: 100px;
+    }
+    .card h1{
+        position: relative;
+        left: 200px;
+        font-size: 40px;
+        top: -40px;
+    }
+    .card img{
+        width: 80px;
+        position: relative;
+        top: -135px;
+    }
+    hr{
+        left: -800px;
+    }
+}
+@media (max-width: 1024px) {
+    .scroller{
+        position: relative;
+        left: -100px;
+    }
+    .btns{
+        position: relative;
+        top: -480px;
+    }
+    .img{
+        position: relative;
+        top: -300px;
+    }   
+    .titre{
+        position: relative;
+        top: -380px;
+        right: 35px;
+    }
+    .artiste{
+        position: relative;
+        top: -380px;
+    }
+    .hr{
+        color: white;
+    }
+    .card{
+        position: relative;
+        left: 300px;
+    }
+    .degrade{
+        position: relative;
+        left: 300px;
+    }
+}
+@media (max-width: 768px) {
+    
+    .btns{
+        position: relative;
+        top: -580px;
+        left: 100px;
+    }
+    .img{
+        position: relative;
+        top: -410px;
+        left: 10px;
+    }
+    .titre{
+        position: relative;
+        top: -480px;
+        left: 130px;
+    }
+    .artiste{
+        position: relative;
+        top: -480px;
+        left: 130px;
+    }
+    .card{
+        width: 500px;
+    }
+    .degrade{
+        width: 570px;
+    }
+
+    /* firstline */
+
+    .titre-playliste{
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    .artiste-playliste{
+        font-size: 15px;
+        position: relative;
+        top: -65px;
+        left: 880px;
+    }
+    .img-playliste{
+        position: relative;
+        top: 60px;
+        width: 70px;
+    }
+
+    /* twoline */
+
+    .titre-playliste2{
+        font-size: 30px;
+        position: relative;
+        top: -150px;
+    }
+    .artiste-playliste2{
+        font-size: 15px;
+        position: relative;
+        top: -197px;
+        left: 990px;
+    }
+    .img-playliste2{
+        position: relative;
+        top: -80px;
+        width: 70px;
+    }
+    .play2{
+        position: relative;
+        top: -240px;
+    }
+
+    /* threeline */
+
+    .titre-playliste3{
+        font-size: 30px;
+        position: relative;
+        top: -290px;
+    }
+    .artiste-playliste3{
+        font-size: 15px;
+        position: relative;
+        top: -337px;
+        left: 830px;
+    }
+    .img-playliste3{
+        position: relative;
+        top: -220px;
+        width: 70px;
+    }
+    .play3{
+        position: relative;
+        top: -382px;
+    }
+    
+    /* fourline */
+
+    .titre-playliste4{
+        font-size: 30px;
+        position: relative;
+        top: -430px;
+    }
+    .artiste-playliste4{
+        font-size: 15px;
+        position: relative;
+        top: -475px;
+        left: 930px;
+    }
+    .img-playliste4{
+        position: relative;
+        top: -360px;
+        width: 70px;
+    }
+    .play4{
+        position: relative;
+        top: -520px;
+    }
+
+    /* fiveline */
+
+    .titre-playliste5{
+        font-size: 30px;
+        position: relative;
+        top: -570px;
+    }
+    .artiste-playliste5{
+        font-size: 15px;
+        position: relative;
+        top: -615px;
+        left: 800px;
+    }
+    .img-playliste5{
+        position: relative;
+        top: -500px;
+        width: 70px;
+    }
+    .play5{
+        position: relative;
+        top: -660px;
+    }
+
+
+
+
+    .scroller{
+        position: relative;
+        left: -180px;
+        width: 1180px;
+    }
+}
+@media (max-width: 425px) {
+    .navbar{
+        opacity: 0;
+    }
+    .haut{
+        opacity: 0;
+    }
+    .card{
+        width: 800px;
+        position: relative;
+        left: 50px;
+        top: -1400px;
+    }
+    .degrade{
+        width: 870px;
+        position: relative;
+        left: 50px;
+        top: -1300px;
+    }
+    .card h1{
+        font-size: 70px;
+        position: relative;
+        top: -80px;
+    }
+    .card img{
+        position: relative;
+        top: -220px;
+    }
+    .img{
+        position: relative;
+        top: -80px;
+        width: 150px;
+    }
+    .btns{
+        position: relative;
+        left: 500px;
+        top: -300px;
+    }
+    .artiste{
+        position: relative;
+        top: -200px;
+        left: 200px;
+        font-size: 20px;
+    }
+    .titre{
+        position: relative;
+        top: -200px;
+        left: 200px;
+        font-size: 30px;
+    }
+    .scroller{
+        position: relative;
+        top: -200px;
+        left: -300px;
+    }
+
+    /* firstline */
+    .play{
+        width: 65px;
+        position: relative;
+        top: -140px;
+    }
+    .titre-playliste{
+        font-size: 40px;
+    }
+    .artiste-playliste{
+        font-size: 20px;
+        position: relative;
+        top: -80px;
+        left: 950px;
+    }
+    .img-playliste{
+        width: 90px;
+        position: relative;
+        top: 70px;
+    }
+
+    /* twoline */
+    .play2{
+        width: 65px;
+        position: relative;
+        top: -290px;
+    }
+    .titre-playliste2{
+        font-size: 30px;
+        position: relative;
+        top: -180px;
+    }
+    .artiste-playliste2{
+        font-size: 20px;
+        position: relative;
+        top: -230px;
+        left: 1000px;
+    }
+    .img-playliste2{
+        width: 90px;
+        position: relative;
+        top: -100px;
+    }
+
+    /* threeline */
+    .play3{
+        width: 65px;
+        position: relative;
+        top: -460px;
+    }
+    .titre-playliste3{
+        font-size: 40px;
+        position: relative;
+        top: -340px;
+    }
+    .artiste-playliste3{
+        font-size: 20px;
+        position: relative;
+        top: -400px;
+        left: 900px;
+    }
+    .img-playliste3{
+        width: 90px;
+        position: relative;
+        top: -245px;
+    }
+    
+    /* fourline */
+    .play4{
+        width: 65px;
+        position: relative;
+        top: -600px;
+    }
+    .titre-playliste4{
+        font-size: 30px;
+        position: relative;
+        top: -495px;
+    }
+    .artiste-playliste4{
+        font-size: 20px;
+        position: relative;
+        top: -545px;
+        left: 950px;
+    }
+    .img-playliste4{
+        width: 90px;
+        position: relative;
+        top: -415px;
+    }
+
+    /* fiveline */
+    .play5{
+        width: 65px;
+        position: relative;
+        top: -600px;
+    }
+    .titre-playliste5{
+        font-size: 30px;
+        position: relative;
+        top: -495px;
+    }
+    .artiste-playliste5{
+        font-size: 20px;
+        position: relative;
+        top: -545px;
+        left: 800px;
+    }
+    .img-playliste5{
+        width: 90px;
+        position: relative;
+        top: -415px;
+    }
+    .fiveline{
+        position: relative;
+        top: -140px;
+    }
+
+}
+@media (max-width: 375px) {
+    .img{
+        position: relative;
+        top: 60px;
+    }
+    .artiste{
+        position: relative;
+        top: -50px;
+    }
+    .titre{
+        position: relative;
+        top: -50px;
+    }
+    .btns{
+        position: relative;
+        top: -150px;
+        left: 500px;
+    }
+}
+@media (max-width: 320px) {
+    .img{
+        position: relative;
+        top: 250px;
+    }
+    .artiste{
+        position: relative;
+        top: 100px;
+        font-size: 30px;
+    }
+    .titre{
+        position: relative;
+        top: 100px;
+        font-size: 40px;
+    }
+    .btns{
+        position: relative;
+        top: 0px;
+        left: 550px;
+    }
 }
